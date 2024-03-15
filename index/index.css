@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Regular.ttf")
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav > a{  
+    font-size: small;
+}
+
+.gray-font{
+    color: #C4C4C4;
+}
