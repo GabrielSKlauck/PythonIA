@@ -86,6 +86,11 @@ nav > a{
     margin-inline: auto;
 }
 
+.img-advantages-desktop{
+    margin-top: 4rem;
+    margin-inline: auto;
+}
+
 #footer{
     background-color: #19161C;
     margin-top: 4rem;
