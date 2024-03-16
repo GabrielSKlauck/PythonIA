@@ -20,13 +20,17 @@ nav > a{
     color: #C4C4C4;
 }
 
+.central-text{
+    margin-left: 3rem;
+}
+
 #btn-green-consult{
     font-family: 'Roboto', sans-serif;
     padding: 12px;
     border-radius: 20px;
     background-color: #14F195;
     font-size: large;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #btn-black-about{
@@ -38,4 +42,9 @@ nav > a{
     font-size: large;
     font-weight: 400;
     border: 1px white solid;
+}
+
+.img-advantages{
+    margin-top: 4rem;
+    margin-inline: auto;
 }
