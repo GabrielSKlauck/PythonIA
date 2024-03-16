@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins/Poppins-Regular.ttf")
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url("../assets/fonts/Roboto/Roboto-Regular.ttf")
+}
+
+body, footer{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav > a{  
+    font-size: small;
+}
+
+.gray-font{
+    color: #C4C4C4;
+}
+
+.central-text{
+    margin-left: 3rem;
+}
+
+.inputs-styles{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+
+#text-area-style{
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+
+#btn-green-consult{
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #14F195;
+    font-size: large;
+    font-weight: 600;
+}
+
+#container-form{
+    background-color: #19161C;
+    width: 22rem;
+    border-radius: 15px;
+}
+
+#btn-send-info{
+    padding: 10px;
+    margin-inline: auto;
+    margin-top: 2rem;
+    height: 3rem;
+    width: 20rem;
+    background-color: #6979F8;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+#btn-black-about{
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    color: white;
+    border-radius: 20px;
+    background-color: #000000;
+    font-size: large;
+    font-weight: 400;
+    border: 1px white solid;
+}
+
+.img-advantages{
+    margin-top: 4rem;
+    margin-inline: auto;
+}
+
+#footer{
+    background-color: #19161C;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+}
