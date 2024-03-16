@@ -49,6 +49,27 @@ nav > a{
     font-weight: 600;
 }
 
+#container-form{
+    background-color: #19161C;
+    width: 22rem;
+    border-radius: 15px;
+}
+
+#btn-send-info{
+    padding: 10px;
+    margin-inline: auto;
+    margin-top: 2rem;
+    height: 3rem;
+    width: 20rem;
+    background-color: #6979F8;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
 #btn-black-about{
     font-family: 'Roboto', sans-serif;
     padding: 12px;

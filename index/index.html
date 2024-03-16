@@ -66,15 +66,23 @@
                 da automação <br> e da eficiência dele, com base <br> em nossos 
                 calculos de preços entregaremos um preço justo <br> e 
                 abaixo do mercado.</p>
-            <input type="text"class="central-text mt-20 inputs-styles" placeholder="Titulo">
-            <input type="text"class="central-text mt-10 inputs-styles" placeholder="Nome">
-            <input type="text"class="central-text mt-10 inputs-styles" placeholder="Email">
-            <textarea name="" id="text-area-style" cols="30" rows="10" 
-                        class="central-text mt-10 w-[20rem] "
-                        placeholder="Descrição">
-                
-            </textarea>
-            
+            <div class="flex-col justify-center mx-auto mt-3" id="container-form">
+                <input type="text"class="ml-3 mt-14 inputs-styles" placeholder="Titulo">
+                <input type="text"class="ml-3 mt-10 inputs-styles" placeholder="Nome">
+                <input type="text"class="ml-3 mt-10 inputs-styles" placeholder="Email">
+                <textarea name="" id="text-area-style" cols="30" rows="10"
+                            class="ml-3 mt-10 w-[20rem] "
+                            placeholder="Descrição detalhada do projeto">
+                </textarea>
+                <div class="mt-4">
+                    <input type="checkbox" name="" id="checkbox-agreement" class="mx-auto ml-3 w-[2rem] h-[2rem]">
+                    <label for="" class="text-white">Eu aceito</label>
+                    <a href="" class="text-blue-700">Termos & Condições</a>
+                    
+                </div>
+                <button type="submit" id="btn-send-info">Enviar</button>
+            </div>
+
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
