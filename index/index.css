@@ -8,7 +8,7 @@
     src: url("../assets/fonts/Roboto/Roboto-Regular.ttf")
 }
 
-body{
+body, footer{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -84,4 +84,11 @@ nav > a{
 .img-advantages{
     margin-top: 4rem;
     margin-inline: auto;
+}
+
+#footer{
+    background-color: #19161C;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
 }
