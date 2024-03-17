@@ -55,12 +55,27 @@ nav > a{
     border-radius: 15px;
 }
 
+#container-form-desktop{
+    background-color: #19161C;
+    width: 30rem;
+    border-radius: 15px;
+}
+
+.inputs-styles-desktop{
+    width: 26rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+
 #btn-send-info{
     padding: 10px;
-    margin-inline: auto;
-    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
     height: 3rem;
-    width: 20rem;
+    width: 10rem;
     background-color: #6979F8;
     text-align: center;
     justify-content: center;
@@ -84,6 +99,15 @@ nav > a{
 .img-advantages{
     margin-top: 4rem;
     margin-inline: auto;
+}
+
+.img-advantages-desktop{
+    margin-top: 4rem;
+    margin-inline: auto;
+}
+
+.div-gradient{
+    background: linear-gradient(to bottom, #19161C, #000000);
 }
 
 #footer{
