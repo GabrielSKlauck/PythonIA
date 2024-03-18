@@ -116,3 +116,19 @@ nav > a{
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 843px) {
+    #div-form{
+        flex-direction: column;
+        height: 64rem;
+    }
+}
+
+@media(max-width: 645px){
+    .desktop-tags{
+        display: none !important;
+    }
+    .mobile-tags{
+        display: block !important;
+    }
+}
