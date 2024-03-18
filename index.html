@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python IA</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/Favicon.ico"/>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="./geral/resetCss.css">
-    <link rel="shortcut icon" href="./assets/images/Logo.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-             }
-            }
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
         }
     </script>
 </head>
+
 <body class="bg-black">
     <header class="bg-black w-full h-[3rem] flex items-center justify-between">
         <img src="./assets/images/Logo.png" alt="" class="w-[3rem] h-[1.5rem] ml-3">
@@ -30,10 +33,10 @@
         </nav>
     </header>
     <div class="w-full h-auto">
-        
-        <div class="flex-col justify-center items-center w-full"> 
+
+        <div class="flex-col justify-center items-center w-full">
             <div class="desktop-tags inline-block flex justify-center items-center w-full">
-                
+
                 <div class="w-[30rem]">
                     <p class="text-white text-6xl mt-5 ">Recursos em automação</p>
                     <p class="text-2xl mt-5 gray-font ">Consulte orçamento para automatizar uma tarefa.</p>
@@ -43,8 +46,8 @@
                     </div>
                 </div>
                 <img src="./assets/images/img-logo-ia.png" alt="" class="flex w-[22rem] h-[22rem]">
-                
-            </div>  
+
+            </div>
             <div class="hidden mobile-tags">
                 <img src="./assets/images/img-logo-ia.PNG" alt="" class="mt-4 mr-2">
                 <p class="text-white text-6xl mt-5 central-text">Recursos em automação</p>
@@ -52,76 +55,70 @@
                 <div class="flex justify-center mt-10">
                     <button class="bg-white mr-5" id="btn-green-consult">CONSULTAR</button>
                     <button class="bg-white" id="btn-black-about">ENTENDER SOBRE</button>
-                
+
                 </div>
-            </div> 
+            </div>
             <div class="desktop-tags inline-block flex justify-center items-center w-full">
                 <div class="flex-col">
                     <p class="text-white text-center text-4xl  mt-10">Comece agora!</p>
                     <p class="text-2xl  mt-2 gray-font">Economize tempo para fazer tarefas
                         que realmente precisam da sua atenção, o resto, deixa que o python IA automatiza</p>
                 </div>
-            </div>   
+            </div>
             <div class="mobile-tags hidden">
                 <p class="text-white text-4xl central-text mt-10">Comece agora!</p>
                 <p class="text-2xl central-text mt-2 gray-font">Economize tempo para fazer tarefas
                     que realmente precisam <br> da sua atenção, o resto, deixa <br> que o python IA automatiza</p>
-            </div>                 
-               
-            <div class="grid grid-cols-1 mx-4 sm:mx-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3">
-                
-                <img src="./assets/images/Frame.png" class="img-advantages-desktop">
-                <img src="./assets/images/Frame (1).png" class="img-advantages-desktop">
-                <img src="./assets/images/Frame (2).png" class="img-advantages-desktop">
-                <img src="./assets/images/Frame (3).png" class="img-advantages-desktop">
-                <img src="./assets/images/Frame (4).png" class="img-advantages-desktop">
-                <img src="./assets/images/Frame (5).png" class="img-advantages-desktop">
-                
             </div>
 
-            <div class="mobile-tags hidden">
-                <img src="./assets/images/Frame.png" class="flex inline mt-6 mx-auto">
-                <img src="./assets/images/Frame (1).png" class="img-advantages">
-                <img src="./assets/images/Frame (2).png" class="img-advantages">
-                <img src="./assets/images/Frame (3).png" class="img-advantages">
-                <img src="./assets/images/Frame (4).png" class="img-advantages">
-                <img src="./assets/images/Frame (5).png" class="img-advantages">
+            <div class="w-full h-auto flex justify-center items-center" id="div-back-cards">
+                <div class="grid grid-cols-1 mx-4 mt-4 sm:mx-0 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3">
+
+                    <img src="./assets/images/Frame.png" class="img-advantages-desktop">
+                    <img src="./assets/images/Frame (1).png" class="img-advantages-desktop">
+                    <img src="./assets/images/Frame (2).png" class="img-advantages-desktop">
+                    <img src="./assets/images/Frame (3).png" class="img-advantages-desktop">
+                    <img src="./assets/images/Frame (4).png" class="img-advantages-desktop">
+                    <img src="./assets/images/Frame (5).png" class="img-advantages-desktop">
+
+                </div>
             </div>
 
-            <div class="desktop-tags div-gradient inline-block flex justify-center items-center mt-20 w-full h-[40rem]" id="div-form">
+            <div class="desktop-tags div-gradient inline-block flex justify-center items-center mt-20 w-full h-[40rem]"
+                id="div-form">
                 <div class="w-[30rem] flex-col">
                     <p class="text-white text-4xl central-text mt-10">Conheça de perto</p>
-                <p class="text-2xl central-text mt-4 gray-font">Saiba quais tecnologias estão
-                     envolvidas no processo de automação.</p>
-                <hr class="mt-6 w-[20rem] flex mx-auto">
-                <ul class="inline flex justify-center mt-5">
-                    <li><img src="./assets/images/Selenium.png" alt="Selenium-logo"></li>
-                    <li class="ml-3"><img src="./assets/images/Python.png" alt="Python-logo"></li>
-                    <li class="ml-3"><img src="./assets/images/Html 5.png" alt="Html-logo"></li>
-                    <li class="ml-3"><img src="./assets/images/JavaScript.png" alt="js-logo"></li>
-                    <li><img src="./assets/images/CSS3.png" alt="css-logo"></li>
-                </ul>
-                <p class="text-white text-4xl central-text mt-10">Consulte seu orçamento.</p>
-                <p class="text-2xl central-text mt-4 gray-font">O orçamento varia da complexidade
-                    da automação  e da eficiência dele, com base  em nossos
-                    calculos de preços entregaremos um preço justo  e
-                    abaixo do mercado.</p>
+                    <p class="text-2xl central-text mt-4 gray-font">Saiba quais tecnologias estão
+                        envolvidas no processo de automação.</p>
+                    <hr class="mt-6 w-[20rem] flex mx-auto">
+                    <ul class="inline flex justify-center mt-5">
+                        <li><img src="./assets/images/Selenium.png" alt="Selenium-logo"></li>
+                        <li class="ml-3"><img src="./assets/images/Python.png" alt="Python-logo"></li>
+                        <li class="ml-3"><img src="./assets/images/Html 5.png" alt="Html-logo"></li>
+                        <li class="ml-3"><img src="./assets/images/JavaScript.png" alt="js-logo"></li>
+                        <li><img src="./assets/images/CSS3.png" alt="css-logo"></li>
+                    </ul>
+                    <p class="text-white text-4xl central-text mt-10">Consulte seu orçamento.</p>
+                    <p class="text-2xl central-text mt-4 gray-font">O orçamento varia da complexidade
+                        da automação e da eficiência dele, com base em nossos
+                        calculos de preços entregaremos um preço justo e
+                        abaixo do mercado.</p>
                 </div>
-                <form action="" class="flex-col justify-center ml-20 mt-3"  id="container-form-desktop">                    
-                    <input type="text"class="ml-3 mt-8 inputs-styles-desktop" placeholder="Titulo">
-                    <input type="text"class="ml-3 mt-5 inputs-styles-desktop" placeholder="Nome">
-                    <input type="text"class="ml-3 mt-5 inputs-styles-desktop" placeholder="Email">
-                    <textarea name="" id="text-area-style" cols="30" rows="10"
-                                class="ml-3 mt-10 w-[26rem] "
-                                placeholder="Descrição detalhada do projeto">
+                <form action="" class="flex-col justify-center ml-20 mt-3" id="container-form-desktop">
+                    <input type="text" class="ml-3 mt-8 inputs-styles-desktop" placeholder="Titulo">
+                    <input type="text" class="ml-3 mt-5 inputs-styles-desktop" placeholder="Nome">
+                    <input type="text" class="ml-3 mt-5 inputs-styles-desktop" placeholder="Email">
+                    <textarea name="" id="text-area-style" cols="30" rows="10" class="ml-3 mt-10 w-[26rem] "
+                        placeholder="Descrição detalhada do projeto">
                     </textarea>
-                    <div class="inline-block justify-center items-center flex w-full">                       
-                            <div class="mt-4">
-                                <input type="checkbox" name="" id="checkbox-agreement" class="mx-auto ml-3 w-[1rem] h-[1rem]">
-                                <label for="" class="text-white">Eu aceito</label>
-                                <a href="" class="text-blue-700">Termos & Condições</a>
-                        
-                            </div>
+                    <div class="inline-block justify-center items-center flex w-full">
+                        <div class="mt-4">
+                            <input type="checkbox" name="" id="checkbox-agreement"
+                                class="mx-auto ml-3 w-[1rem] h-[1rem]">
+                            <label for="" class="text-white">Eu aceito</label>
+                            <a href="" class="text-blue-700">Termos & Condições</a>
+
+                        </div>
                         <button type="submit" id="btn-send-info">Enviar</button>
                     </div>
                 </form>
@@ -130,7 +127,7 @@
             <div class="mobile-tags hidden">
                 <p class="text-white text-4xl central-text mt-10">Conheça de perto</p>
                 <p class="text-2xl central-text mt-4 gray-font">Saiba quais tecnologias estão
-                     envolvidas no processo de automação.</p>
+                    envolvidas no processo de automação.</p>
                 <hr class="mt-6 w-[20rem] flex mx-auto">
                 <ul class="inline flex justify-center mt-5">
                     <li><img src="./assets/images/Selenium.png" alt="Selenium-logo"></li>
@@ -145,20 +142,19 @@
                     da automação <br> e da eficiência dele, com base <br> em nossos
                     calculos de preços entregaremos um preço justo <br> e
                     abaixo do mercado.</p>
-                <form action="" class="flex-col justify-center mx-auto mt-3" id="container-form">                    
-                    <input type="text"class="ml-3 mt-14 inputs-styles" placeholder="Titulo">
-                    <input type="text"class="ml-3 mt-10 inputs-styles" placeholder="Nome">
-                    <input type="text"class="ml-3 mt-10 inputs-styles" placeholder="Email">
-                    <textarea name="" id="text-area-style" cols="30" rows="10"
-                                class="ml-3 mt-10 w-[20rem] "
-                                placeholder="Descrição detalhada do projeto">
+                <form action="" class="flex-col justify-center mx-auto mt-3" id="container-form">
+                    <input type="text" class="ml-3 mt-14 inputs-styles" placeholder="Titulo">
+                    <input type="text" class="ml-3 mt-10 inputs-styles" placeholder="Nome">
+                    <input type="text" class="ml-3 mt-10 inputs-styles" placeholder="Email">
+                    <textarea name="" id="text-area-style" cols="30" rows="10" class="ml-3 mt-10 w-[20rem] "
+                        placeholder="Descrição detalhada do projeto">
                     </textarea>
-                        <div class="mt-4">
-                            <input type="checkbox" name="" id="checkbox-agreement" class="mx-auto ml-3 w-[1rem] h-[1rem]">
-                            <label for="" class="text-white">Eu aceito</label>
-                            <a href="" class="text-blue-700">Termos & Condições</a>
-                    
-                        </div>
+                    <div class="mt-4">
+                        <input type="checkbox" name="" id="checkbox-agreement" class="mx-auto ml-3 w-[1rem] h-[1rem]">
+                        <label for="" class="text-white">Eu aceito</label>
+                        <a href="" class="text-blue-700">Termos & Condições</a>
+
+                    </div>
                     <button type="submit" id="btn-send-info">Enviar</button>
                 </form>
             </div>
@@ -168,8 +164,10 @@
     <footer class="w-full h-[16rem] flex-col" id="footer">
         <img src="./assets/images/Logo.png" class="mx-auto self-center top-7 relative">
         <p class="mx-auto mt-16 text-center text-white">Administrado pela Python IA</p>
-        <p class="mx-auto mt-10 text-center gray-font">&#169; 2024 PythonIA Foundation. Todos os direitos reservados.</p>
+        <p class="mx-auto mt-10 text-center gray-font">&#169; 2024 PythonIA Foundation. Todos os direitos reservados.
+        </p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </body>
+
 </html>
