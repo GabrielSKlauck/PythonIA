@@ -25,7 +25,7 @@
 
 <body class="bg-black">
     <div class="w-full h-full fixed hidden items-center justify-center" id="modal-termos">
-        <p class="absolute top-9 right-10 text-2xl text-white">X</p>
+        <p class="absolute top-9 right-10 text-2xl text-white cursor-pointer" onclick="removeTerms()">X</p>
         <div class="w-[30rem] h-auto" id="container-clauses">
             <p class="text-white text-center mt-10 text-2xl">Termos & condições</p>
             <p class="text-white text-center mt-3">Termos e Condições para Serviços de Automação com Python</p>
@@ -59,7 +59,7 @@
                 entendeu e concordou com os termos e condições acima.</p>
             
             <div class="w-full h-[7rem] justify-center flex items-center">
-                <button id="btn-aceito">ACEITAR</button>
+                <button id="btn-aceito" onclick="removeTerms()">ACEITAR</button>
             </div>
         </div>
     </div>
