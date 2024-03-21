@@ -24,7 +24,7 @@
 </head>
 
 <body class="bg-black">
-    <div class="w-full h-full fixed flex items-center justify-center" id="modal-termos">
+    <div class="w-full h-full fixed hidden items-center justify-center" id="modal-termos">
         <p class="absolute top-9 right-10 text-2xl text-white">X</p>
         <div class="w-[30rem] h-auto" id="container-clauses">
             <p class="text-white text-center mt-10 text-2xl">Termos & condições</p>
@@ -156,7 +156,7 @@
                             <input type="checkbox" name="" id="checkbox-agreement"
                                 class="mx-auto ml-3 w-[1rem] h-[1rem]">
                             <label for="" class="text-white">Eu aceito</label>
-                            <a href="" class="text-blue-700">Termos & Condições</a>
+                            <a href="" class="text-blue-700" onclick="showTerms()">Termos & Condições</a>
 
                         </div>
                         <button type="submit" id="btn-send-info">Enviar</button>
@@ -192,7 +192,7 @@
                     <div class="mt-4">
                         <input type="checkbox" name="" id="checkbox-agreement" class="mx-auto ml-3 w-[1rem] h-[1rem]">
                         <label for="" class="text-white">Eu aceito</label>
-                        <a href="" class="text-blue-700">Termos & Condições</a>
+                        <a href="" class="text-blue-700" onclick="showTerms()">Termos & Condições</a>
 
                     </div>
                     <button type="submit" id="btn-send-info">Enviar</button>
@@ -208,6 +208,7 @@
         </p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
