@@ -24,6 +24,14 @@ body, footer{
     
 }
 
+#btn-aceito{
+    background-color: #6979F8;
+    padding: 20px 60px 20px 60px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+}
+
 nav > a{  
     font-size: small;
 }
